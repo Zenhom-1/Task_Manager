@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/Background.avif) no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+.head1 {
+  color: #1ce5ff;
+  margin: 30px auto;
+  border-bottom: 6px solid #1ce5ff;
+  display: inline-block;
+  margin-left: 39%;
+  border-radius: 7px;
+}
+.heada1 {
+  color: #1ce5ff;
+  margin: 30px auto;
+  border-bottom: 6px solid #1ce5ff;
+  display: inline-block;
+  margin-left: 19%;
+  border-radius: 7px;
+  font-size: 3em;
+}
+.head2 {
+  color: #efc176;
+  margin: 20px 310px;
+  font-size: 2em;
+}
+
+.heada2 {
+  color: #efc176;
+  margin: 0px 310px;
+  font-size: 2em;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 400px;
+}
+
+nav {
+  background-color: #e61e6b;
+  padding: 10px;
+  border-radius: 40px;
+  grid-column: 2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 16px;
+  padding-left: 36px;
+}
+
+li a:hover {
+  background-color: #ff98c0;
+  color: black;
+  border-radius: 40px;
+}
+
+.imgg {
+  background: url(../images/photo\ task.jpeg) no-repeat;
+  background-size: cover;
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 32%;
+  right: 8%;
+}
+
+.formm {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.lab {
+  display: block;
+  margin: 6px auto;
+  color: black;
+  font-size: 1.3em;
+}
+
+.inpt {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subt {
+  background-color: #1e052e;
+  color: white;
+  padding: 11px 30px;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  margin-left: 42%;
+  margin-top: 15px;
+}
+
+.subt:hover {
+  background-color: #29737c;
+}
+.pagetask {
+  width: 400px;
+  margin: 40px 28%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #888888;
+}
+
+.zoom {
+  transform: scale(0.92);
+  margin-top: 2px;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-left: 5%;
+}
+
+th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.th1 {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.th2 {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+td {
+  font-size: 1.3em;
+  padding: 8px;
+  text-align: center;
+  color: #efc176;
+  font-weight: 700;
+}
+
+.deletelink {
+  color: red;
+  text-decoration: none;
+  background-color: #320617;
+  padding: 5px 23px;
+  border-radius: 30px;
+}
+
+.deletelink:hover {
+  text-decoration: underline;
+  background-color: #2196f3;
+}
+
+.backlink {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  background-color: #1e052e;
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin-left: 65%;
+}
+
+.backlink:hover {
+  text-decoration: underline;
+  background-color: #29737c;
+}
+
+.headas2 {
+  color: #efc176;
+  margin: 20px 280px;
+  font-size: 1.8em;
+  display: inline;
+}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #888888;
+}
+
+.headnp {
+  text-align: center;
+}
+
+.luf {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.inpuf {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.inpufs {
+  background-color: #1e052e;
+  color: white;
+  padding: 10px 45px;
+  font-size: 1.3em;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  margin-left: 15%;
+}
+
+.inpufs:hover {
+  background-color: #29737c;
+}
+
+.zooom {
+  transform: scale(0.8);
+  margin-top: -20px;
+}
+
+.upb {
+  margin-left: 75%;
+}
+
+hr {
+  height: 10px;
+  background-color: #e61e6b;
+  border: none;
+  width: 600px;
+  border-radius: 30px;
+}
+
+.adh {
+  margin-left: 10%;
+}
+.uss {
+  color: #1ce5ff;
+  background-color: #1e052e;
+  text-decoration: none;
+  padding: 5px 23px;
+  border-radius: 30px;
+}
+
+.uss:hover {
+  text-decoration: underline;
+  background-color: #490376;
+}
+
+.tm {
+  background: url(../images/teamwork.jpg) no-repeat;
+  background-size: cover;
+  width: 580px;
+  height: 330px;
+  position: absolute;
+  top: 45%;
+  right: 16%;
+  border-radius: 20px;
+}
+
+.uau {
+  font-size: 2.3em;
+}

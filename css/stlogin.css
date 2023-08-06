@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/Background.avif) no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.headorgan {
+  color: #efc176;
+}
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #888888;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  width: 100%;
+  margin: 10px 0;
+}
+
+span {
+  margin-right: -50px;
+  margin-left: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+input[type="submit"] {
+  background-color: #1e052e;
+  color: white;
+  padding: 12px 110px;
+  font-size: 1.3em;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  margin-left: 15%;
+}
+
+input[type="submit"]:hover {
+  background-color: #29737c;
+}
+.inp2 {
+  background-color: #1e052e;
+  color: white;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 30px;
+  margin-left: 30%;
+  text-decoration: none;
+}
+
+.inp2:hover {
+  background-color: #29737c;
+}
+
+.Zenhom {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+  background-color: #1e052e;
+  padding: 10px 15px;
+  border-radius: 30px;
+  position: absolute;
+  top: 15%;
+  left: 3%;
+}
+
+.Zenhom:hover {
+  text-decoration: underline;
+  background-color: #29737c;
+}
